@@ -1,250 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FiveOnFive">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/womanB"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32" />
-
-    <TextView
-        android:id="@+id/manC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/womanD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
-
-    <TextView
-        android:id="@+id/womanA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
-
-    <TextView
-        android:id="@+id/manB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321" />
-
-    <TextView
-        android:id="@+id/womanC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/manA_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/open1"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
-
-    <Button
-        android:id="@+id/womanB_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorAccent"
-        android:text="@string/open1"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
-
-    <Button
-        android:id="@+id/manC_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/open2"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
-
-    <Button
-        android:id="@+id/womanD_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorAccent"
-        android:text="@string/open3"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
-
-    <Button
-        android:id="@+id/womanA_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorAccent"
-        android:text="@string/open4"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
-
-    <Button
-        android:id="@+id/womanC_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorAccent"
-        android:text="@string/open5"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
-
-    <Button
-        android:id="@+id/manB_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/open4"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
-
-    <TextView
-        android:id="@+id/manD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="60dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/table" />
-
-    <Button
-        android:id="@+id/manD_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/open6"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
-
-    <TextView
-        android:id="@+id/manA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        android:text="席位置はこちら⬇︎"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView23"
@@ -254,80 +22,225 @@
         android:text="@string/sub"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="席位置はこちら⬇︎"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/womanA_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorAccent"
+                android:text="@string/open4"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/womanA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/manB_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/open4"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/manB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/womanC_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorAccent"
+                android:text="@string/open5"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/womanC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/manD_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/open6"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/manD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/womanE_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorAccent"
+                android:text="@string/openW5"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/womanE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:src="@drawable/table"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/manA_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/open1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/manA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/womanB_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorAccent"
+                android:text="@string/open1"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/womanB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.32" />
+
+            <Button
+                android:id="@+id/manC_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/open2"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/manC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/womanD_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorAccent"
+                android:text="@string/open3"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/womanD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/manE_button"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/Buttontext"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/manE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newBlank"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/back"
+        android:layout_marginBottom="50dp"
         android:layout_width="58dp"
         android:layout_height="44dp"
-        android:text="@string/finish"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:text="@string/finish" />
 
-    <TextView
-        android:id="@+id/manE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
-
-    <Button
-        android:id="@+id/manE_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorPrimary"
-        android:text="@string/Buttontext"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94" />
-
-    <TextView
-        android:id="@+id/womanE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/newBlank"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861" />
-
-    <Button
-        android:id="@+id/womanE_button"
-        android:layout_width="80dp"
-        android:layout_height="45dp"
-        android:background="@color/colorAccent"
-        android:text="@string/openW5"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

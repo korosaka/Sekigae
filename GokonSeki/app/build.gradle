@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion = "34.0.0"
+    compileSdkVersion 35
+    buildToolsVersion = "35.0.0"
     defaultConfig {
         applicationId "com.dotinstall.gokonseki"
         minSdkVersion 19
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode 3
         versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

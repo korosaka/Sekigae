@@ -7,8 +7,8 @@ android {
         applicationId "com.dotinstall.gokonseki"
         minSdkVersion 19
         targetSdkVersion 35
-        versionCode 3
-        versionName "1.1"
+        versionCode 202507061
+        versionName "1.1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     namespace "com.dotinstall.gokonseki"
